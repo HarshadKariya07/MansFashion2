@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629565562691",
+    "project_id": "mans-fashion-e1cbb",
+    "storage_bucket": "mans-fashion-e1cbb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629565562691:android:9b151a2df7e31a63f759f6",
+        "android_client_info": {
+          "package_name": "com.example.mansfashion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTUw9XckE9uQ-K4YmTjR5ZRtof-o_awzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contect">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTECT US"
+            android:textColor="@color/primary"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="we are at your disposal for may need.\nComplete the fields below.We will reply within 24 working hours."
+            android:textSize="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edtName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtsurName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Surname"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Country"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="State"
+            android:inputType="text"/>
+
+
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="City"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Contect reason" />
+
+        <EditText
+            android:id="@+id/edtmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="Write your message here!" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="40dp"
+            android:text="SEND"
+            android:id="@+id/txtSend"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/shape3"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About US"
+        android:textColor="@color/primary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our store!\n\nWe are dedicated to providing high-quality products specially designed for men.\n\nOur goal is to offer stylish, comfortable, and reliable products that fit perfectly into modern men’s lifestyles.\n\nFrom fashion to everyday essentials, we carefully choose products that combine quality, style, and affordability. We believe every man deserves products that make him feel confident and comfortable.\n\nCustomer satisfaction is our top priority, and we are always working to bring you the best products and service.\n\nThank you for choosing us!"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MansFashion">
+        <activity
+            android:name=".Contect"
+            android:exported="false"/>
+
+        <activity
+            android:name=".About_us"
+            android:exported="false" />
+        <activity
+            android:name=".Oder_Confirm"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_Method_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".walkaroo_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".U_S_Polo_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sparx_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Skecher_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Puma_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Paragon_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Neemas_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Liberty_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Crocs_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Campus_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bata_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yoho_Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Slipper_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Coach_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Woodland_Belt2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Lether_Belt2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Levis_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Gucci_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Woodland_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tommy_Hilfiger_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tom_Ford_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Puma_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Street_Forge_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Lether_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Hidesign_Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Belt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Campus_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Barker_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bally_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Asics_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sneaker_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Derby_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Casual_Shoes3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Casual_Shoes2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Casual_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Stylish_Formal_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Nike_Stylish_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Walking_Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Polo_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Oud_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Marine_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Marque_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Jaguar_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Genre_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fogg_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fire_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Envy_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Chpee_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Blue_Rain_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Cerins_Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Perfume_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ralfa_shirt"
+            android:exported="false" />
+        <activity
+            android:name=".fendi_shirt"
+            android:exported="false" />
+        <activity
+            android:name=".printed_shirts"
+            android:exported="false" />
+        <activity
+            android:name=".van_heusen_shirt"
+            android:exported="false" />
+        <activity
+            android:name=".fastrack_watch"
+            android:exported="false" />
+        <activity
+            android:name=".se_gps_watch"
+            android:exported="false" />
+        <activity
+            android:name=".noise_watch"
+            android:exported="false" />
+        <activity
+            android:name=".ios_watch"
+            android:exported="false" />
+        <activity
+            android:name=".samsung_watch"
+            android:exported="false" />
+        <activity
+            android:name=".iws_watch"
+            android:exported="false" />
+        <activity
+            android:name=".Casio_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sonata_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Plaget_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tisson_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rolex_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Doxa_Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Watch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Legend_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vintage_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Versace_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Round_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Lenskart_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Square_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Gucci_Sunglasses2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Black_Jones_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Designer_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Stylish_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Hexagon_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Gucci_Sunglasses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Goggles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rymond_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Peter_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Blackberry_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Apparel_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Allen_Solly_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Formal_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Best_Shirt"
+            android:exported="false" />
+        <activity
+            android:name=".clearance_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".pink_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".Classic_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".burberry2_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".Roadster_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".levis3_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".puma3_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".Gucci_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".levis_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".Cotton_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".Burbarry_tshirt"
+            android:exported="false" />
+        <activity
+            android:name=".puma_tshirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".T_Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Raymond"
+            android:exported="false" />
+        <activity
+            android:name=".Lacoste"
+            android:exported="false" />
+        <activity
+            android:name=".Blackberry"
+            android:exported="false" />
+        <activity
+            android:name=".Lee"
+            android:exported="false" />
+        <activity
+            android:name=".Gussi"
+            android:exported="false" />
+        <activity
+            android:name=".Jogger"
+            android:exported="false" />
+        <activity
+            android:name=".Park_Avenue"
+            android:exported="false" />
+        <activity
+            android:name=".Louis_Philippe"
+            android:exported="false" />
+        <activity
+            android:name=".Calvin_Klein"
+            android:exported="false" />
+        <activity
+            android:name=".Jeans"
+            android:exported="false" />
+        <activity
+            android:name=".Cargo_Jeans"
+            android:exported="false" />
+        <activity
+            android:name=".Denim_Jeans"
+            android:exported="false" />
+        <activity
+            android:name=".Pent_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Logo_Activity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+
+</manifest>
